@@ -1,0 +1,13 @@
+/* Reduced motion — keep every piece of content visible, drop the heavy movement. */
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after {
+    animation-duration: 0.001ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.001ms !important;
+    scroll-behavior: auto !important;
+  }
+  .marquee-track { animation: none; flex-wrap: wrap; justify-content: center; width: auto; }
+  .marquee { -webkit-mask-image: none; mask-image: none; }
+  .grain { display: none; }
+  .mouse-l1, .mouse-l2, .mouse-l3, .mouse-l4 { transform: none; }
+}
