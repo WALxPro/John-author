@@ -33,7 +33,7 @@ export default function ContactForm({ onSend }) {
     setErrors(found);
     if (Object.keys(found).length) return;
     await onSend?.(values);
-    toast("Thank you — your message has been sent.");
+    toast("Thank you  your message has been sent.");
     setValues(EMPTY);
   };
 

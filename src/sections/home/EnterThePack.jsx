@@ -67,7 +67,7 @@ export default function EnterThePack() {
             <p className="eyebrow">Four Instincts</p>
             <h2 className="pack-heading font-cinzel"><span className="grad-text">ENTER THE PACK</span></h2>
             <p className="lead mt-5 max-w-md">
-              Love, loyalty, family and the wild pull of freedom — the instincts that drive every wolf in <em>Hope for the Wolf</em>.
+              Love, loyalty, family and the wild pull of freedom  the instincts that drive every wolf in <em>Hope for the Wolf</em>.
             </p>
             <p className="pack-hint mt-8 hidden lg:flex">Keep scrolling to run with them <span aria-hidden>→</span></p>
           </div>

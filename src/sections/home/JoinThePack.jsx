@@ -24,7 +24,7 @@ export default function JoinThePack() {
             <p className="eyebrow eyebrow-light justify-center lg:justify-start">Newsletter</p>
             <h2 className="join-title font-cinzel">JOIN THE PACK</h2>
             <p className="join-text mt-4 mx-auto lg:mx-0">
-              Be first to hear about new releases, exclusive excerpts and news from the woods. No spam — just the howl.
+              Be first to hear about new releases, exclusive excerpts and news from the woods. No spam  just the howl.
             </p>
           </div>
           <div className="flex flex-col gap-5 items-center lg:items-start">

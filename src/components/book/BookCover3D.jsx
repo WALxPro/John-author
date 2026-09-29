@@ -16,7 +16,7 @@ export default function BookCover3D({ className = "", float = true, maxTilt = 14
         <div ref={ref} className="book3d">
           <SmartImage
             src={ASSETS.cover}
-            alt="Hope for the Wolf — book cover"
+            alt="Hope for the Wolf book cover"
             className="book3d-img"
             loading={eager ? "eager" : "lazy"}
             fallback={<CoverFallback />}

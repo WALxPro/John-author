@@ -34,7 +34,7 @@ export default function ReviewsCarousel() {
         <SectionHeading
           eyebrow="Reader Reviews"
           title="Howls from the Pack"
-          sub="Placeholder reviews for design purposes only — replace with genuine reader feedback."
+          sub="Placeholder reviews for design purposes only  replace with genuine reader feedback."
         />
       </div>
 

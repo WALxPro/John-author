@@ -19,7 +19,7 @@ export default function Hero() {
     () => {
       if (!ready || reduced) return;
 
-      // Intro — total ≈ 1.5s, starts the moment the loader exits.
+      // Intro  total ≈ 1.5s, starts the moment the loader exits.
       gsap.timeline({ defaults: { ease: "power3.out" } })
         .from(".hero-letter", { opacity: 0, y: 40, scale: 0.9, filter: "blur(10px)", duration: 0.7, stagger: 0.045, clearProps: "transform,filter" })
         .from(".hero-sub", { opacity: 0, y: 20, duration: 0.6 }, "-=0.45")
@@ -29,7 +29,7 @@ export default function Hero() {
         .fromTo(".claw-path", { strokeDashoffset: 600 }, { strokeDashoffset: 0, duration: 0.5, stagger: 0.09, ease: "power2.inOut" }, 0.4)
         .to(".claw-svg", { opacity: 0, duration: 0.9 }, "+=0.5");
 
-      // Subtle scroll parallax — small px values, nothing leaves the viewport.
+      // Subtle scroll parallax  small px values, nothing leaves the viewport.
       const drift = (y) => ({
         y,
         ease: "none",

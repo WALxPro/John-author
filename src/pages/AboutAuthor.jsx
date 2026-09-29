@@ -39,7 +39,7 @@ export default function AboutAuthor() {
       <AuthorSocials />
       <BuyCTA
         title="Read Hope for the Wolf"
-        text="Step into the storm with Fred, Angie and the pack — Book One is waiting."
+        text="Step into the storm with Fred, Angie and the pack  Book One is waiting."
         secondary={<Button to="/about-the-book" variant="ghost">About the Book</Button>}
       />
     </div>

@@ -23,7 +23,7 @@ export default function JourneyTimeline() {
 
   return (
     <section ref={section} className="relative py-20 md:py-28 px-5 md:px-8">
-      <SectionHeading eyebrow="The Journey" title="From Spark to Book One" sub="Placeholder milestones — to be replaced with the author's real journey." />
+      <SectionHeading eyebrow="The Journey" title="From Spark to Book One" sub="Placeholder milestones  to be replaced with the author's real journey." />
       <ol className="timeline max-w-4xl mx-auto mt-16 relative">
         <div className="tl-line" aria-hidden><span className="tl-fill" /></div>
         {TIMELINE.map((m, i) => (

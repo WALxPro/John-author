@@ -35,7 +35,7 @@ export default function AuthorTeaser() {
             {SITE.author} is the author of <span className="text-white">{SITE.bookTitle}</span>, a dark paranormal romance where love, loyalty and the wolf collide.
           </p>
           <p className="lead mt-4" data-reveal data-delay=".05">
-            A fuller author biography is on its way — the story behind the storyteller, in his own words.
+            A fuller author biography is on its way  the story behind the storyteller, in his own words.
           </p>
           <div className="mt-9" data-reveal><Button to="/about-the-author">Meet the Author</Button></div>
         </div>

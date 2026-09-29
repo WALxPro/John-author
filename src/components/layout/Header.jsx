@@ -35,7 +35,7 @@ export default function Header() {
     <>
       <header className={`site-header ${scrolled ? "is-scrolled" : ""} ${open ? "menu-open" : ""}`}>
         <div className="header-inner mx-auto flex items-center justify-between gap-6 px-5 md:px-8">
-          <Link to="/" className="brand" aria-label={`${SITE.author} — Home`}>
+          <Link to="/" className="brand" aria-label={`${SITE.author}  Home`}>
             <Logo variant="header" />
           </Link>
 

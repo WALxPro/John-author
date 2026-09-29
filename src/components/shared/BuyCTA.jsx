@@ -5,7 +5,7 @@ import { LINKS } from "@/config/links";
 
 export default function BuyCTA({
   title = "Answer the Call of the Wild",
-  text = "Hope for the Wolf — Book One — is waiting. Run with the pack tonight.",
+  text = "Hope for the Wolf  Book One  is waiting. Run with the pack tonight.",
   secondary = null,
 }) {
   return (

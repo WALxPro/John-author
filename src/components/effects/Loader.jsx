@@ -3,7 +3,7 @@ import Logo from "@/components/ui/Logo";
 import AuroraBackground from "./AuroraBackground";
 import { useApp } from "@/context/AppContext";
 
-const DURATION = 1300; // short on purpose — never block the hero
+const DURATION = 1300; // short on purpose  never block the hero
 
 export default function Loader() {
   const { setReady } = useApp();

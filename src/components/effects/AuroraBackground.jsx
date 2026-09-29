@@ -1,4 +1,4 @@
-/** Animated aurora blobs + ribbons. Pure CSS — no celestial imagery. */
+/** Animated aurora blobs + ribbons. Pure CSS  no celestial imagery. */
 export default function AuroraBackground({ className = "" }) {
   return (
     <div className={`aurora ${className}`} aria-hidden>

@@ -18,7 +18,7 @@ export default function Footer() {
           <div className="lg:col-span-4">
             <Link to="/" aria-label="Home"><Logo variant="footer" /></Link>
             <p className="text-lavender mt-5 leading-relaxed text-sm max-w-sm">
-              {SITE.tagline} <span className="text-white">{SITE.bookTitle}</span> — Book One — is out now.
+              {SITE.tagline} <span className="text-white">{SITE.bookTitle}</span>  Book One  is out now.
             </p>
             <SocialLinks className="mt-6" />
           </div>
@@ -46,7 +46,7 @@ export default function Footer() {
 
           <div className="lg:col-span-3">
             <h4 className="foot-h font-cinzel">Join the Pack</h4>
-            <p className="text-lavender text-sm mt-5 mb-4">News, excerpts and release updates — straight from the den.</p>
+            <p className="text-lavender text-sm mt-5 mb-4">News, excerpts and release updates  straight from the den.</p>
             <NewsletterForm compact />
           </div>
         </div>

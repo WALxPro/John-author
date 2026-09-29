@@ -30,7 +30,7 @@ export default function Contact() {
           <header className="text-center mb-12">
             <p className="eyebrow justify-center" data-reveal>Contact</p>
             <h1 className="page-title font-cinzel" data-reveal="blur"><span className="grad-text">Send a Howl</span></h1>
-            <p className="lead max-w-xl mx-auto mt-4" data-reveal>Questions, media, reviews or collaborations — the den is listening.</p>
+            <p className="lead max-w-xl mx-auto mt-4" data-reveal>Questions, media, reviews or collaborations  the den is listening.</p>
           </header>
           <div className="grid lg:grid-cols-12 gap-8">
             <div className="lg:col-span-7"><ContactForm /></div>

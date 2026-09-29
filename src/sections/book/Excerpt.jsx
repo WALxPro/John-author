@@ -8,7 +8,7 @@ import { SITE } from "@/config/site";
 export default function Excerpt() {
   return (
     <section id="excerpt" className="relative py-20 md:py-28 px-5 md:px-8">
-      <SectionHeading eyebrow="Excerpt" title={`Chapter One — ${EXCERPT.chapter}`} />
+      <SectionHeading eyebrow="Excerpt" title={`Chapter One  ${EXCERPT.chapter}`} />
       <div className="open-book max-w-6xl mx-auto mt-14" data-reveal="scale">
         <div className="ob-page ob-left">
           <p className="ob-kicker font-cinzel">{SITE.bookTitle}</p>

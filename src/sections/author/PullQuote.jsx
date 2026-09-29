@@ -12,7 +12,7 @@ export default function PullQuote() {
           ))}
         </blockquote>
         <figcaption className="text-lavender mt-8 tracking-widest uppercase text-sm" data-reveal>
-          — {PULL_QUOTE.attribution}, <em>{PULL_QUOTE.source}</em>
+           {PULL_QUOTE.attribution}, <em>{PULL_QUOTE.source}</em>
         </figcaption>
       </figure>
     </section>

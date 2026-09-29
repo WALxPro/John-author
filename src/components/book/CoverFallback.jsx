@@ -9,7 +9,7 @@ export default function CoverFallback() {
         <path d={PINES_COVER} fill="#04050b" />
       </svg>
       <div className="cf-text">
-        <div className="font-cinzel cf-title">HOPE<small>— FOR THE —</small>WOLF</div>
+        <div className="font-cinzel cf-title">HOPE<small> FOR THE </small>WOLF</div>
         <div className="cf-sub">A Paranormal Romance</div>
         <div className="cf-bottom">
           <span>BOOK ONE</span>

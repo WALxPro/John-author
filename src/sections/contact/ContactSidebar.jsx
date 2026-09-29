@@ -14,7 +14,7 @@ export default function ContactSidebar() {
       <div className="glass p-7">
         <p className="eyebrow">Email</p>
         <a href={`mailto:${LINKS.email}`} className="contact-mail font-cinzel">{LINKS.email}</a>
-        <p className="text-lavender text-sm mt-2">Placeholder address — replace with the official contact email.</p>
+        <p className="text-lavender text-sm mt-2">Placeholder address  replace with the official contact email.</p>
       </div>
 
       <div className="glass p-7">
