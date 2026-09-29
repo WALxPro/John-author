@@ -33,14 +33,14 @@ export default function MobileMenu({ open, onClose }) {
               end={to === "/"}
               tabIndex={tab}
               onClick={onClose}
-              className={({ isActive }) => `mm-item mm-link font-cinzel ${isActive ? "active" : ""}`}
-            >
+className={({ isActive }) =>
+  `mm-item mm-link font-cinzel text-lg ${isActive ? "active" : ""}`
+}            >
               <span className="mm-num">0{i + 1}</span>
               {label}
             </NavLink>
           ))}
         </nav>
-        <div className="mm-item"><SocialLinks tabIndex={tab} /></div>
         <div className="mm-item"><Button href={LINKS.retailers.amazon} tabIndex={tab}>Buy on Amazon</Button></div>
       </div>
     </div>

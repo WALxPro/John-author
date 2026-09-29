@@ -37,7 +37,6 @@ export default function Header() {
         <div className="header-inner mx-auto flex items-center justify-between gap-6 px-5 md:px-8">
           <Link to="/" className="brand" aria-label={`${SITE.author} — Home`}>
             <Logo variant="header" />
-            <span className="brand-tag hidden md:block">{SITE.tagline}</span>
           </Link>
 
           <nav className="hidden lg:flex items-center gap-7" aria-label="Main navigation">
@@ -48,7 +47,6 @@ export default function Header() {
             ))}
           </nav>
 
-          <div className="hidden xl:flex"><SocialLinks size="sm" /></div>
 
           <HamburgerButton open={open} onToggle={() => setOpen((o) => !o)} />
         </div>
