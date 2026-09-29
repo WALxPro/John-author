@@ -29,15 +29,9 @@ body {
 
 /* typography helpers */
 .grad-text {
-  background: linear-gradient(90deg, #b79cff, #7c3aed, #f43f5e, #fbbf24, #22d3ee, #b79cff);
-  background-size: 200% auto;
-  -webkit-background-clip: text;
-  background-clip: text;
-  color: transparent;
-  -webkit-text-fill-color: transparent;
-  animation: gradShift 9s linear infinite;
+  color: #d5e8f4;
+  -webkit-text-fill-color: currentColor;
 }
-@keyframes gradShift { from { background-position: 0% 50%; } to { background-position: -200% 50%; } }
 
 .eyebrow { display: flex; align-items: center; gap: 0.8rem; font-size: 0.72rem; letter-spacing: 0.35em; text-transform: uppercase; color: var(--neon); font-weight: 600; margin-bottom: 1rem; }
 .eyebrow::before { content: ""; width: 28px; height: 1px; background: linear-gradient(90deg, transparent, var(--neon)); }
