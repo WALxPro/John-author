@@ -29,12 +29,10 @@ body {
 
 /* typography helpers */
 .grad-text {
-  color: #8E1409;
+  color: #d5e8f4;
   -webkit-text-fill-color: currentColor;
-  text-shadow:
-    0 0 18px rgba(142, 20, 9, 0.35),
-    0 2px 4px rgba(0, 0, 0, 0.6);
 }
+
 .eyebrow { display: flex; align-items: center; gap: 0.8rem; font-size: 0.72rem; letter-spacing: 0.35em; text-transform: uppercase; color: var(--neon); font-weight: 600; margin-bottom: 1rem; }
 .eyebrow::before { content: ""; width: 28px; height: 1px; background: linear-gradient(90deg, transparent, var(--neon)); }
 .eyebrow-light { color: #fff; }

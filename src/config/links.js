@@ -24,10 +24,7 @@ export const LINKS = {
 
 export const RETAILERS = [
   { key: "amazon", label: "Amazon" },
-  { key: "appleBooks", label: "Apple Books" },
-  { key: "kobo", label: "Kobo" },
-  { key: "kindle", label: "Kindle" },
-  { key: "barnesNoble", label: "Barnes & Noble" },
+ 
 ];
 
 export const MARQUEE_RETAILERS = [
@@ -41,8 +38,5 @@ export const MARQUEE_RETAILERS = [
 export const SOCIALS = [
   { key: "facebook", label: "Facebook" },
   { key: "instagram", label: "Instagram" },
-  { key: "x", label: "X" },
-  { key: "tiktok", label: "TikTok" },
-  { key: "goodreads", label: "Goodreads" },
-  { key: "youtube", label: "YouTube" },
+
 ];
