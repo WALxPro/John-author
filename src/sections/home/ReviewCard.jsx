@@ -9,13 +9,25 @@ export default function ReviewCard({ review, offset, onSelect }) {
     pointerEvents: dist > 1 ? "none" : "auto",
   };
   return (
-    <article className={`rev-card ${offset === 0 ? "is-active" : ""}`} style={style} onClick={onSelect} aria-hidden={offset !== 0}>
-      <span className="rev-badge">Placeholder</span>
-      <div className="rev-stars" aria-label="5 out of 5 stars">★★★★★</div>
+    <article
+      className={`rev-card ${offset === 0 ? "is-active" : ""}`}
+      style={style}
+      onClick={onSelect}
+      aria-hidden={offset !== 0}
+    >
+      <span className="rev-badge">Reader Review</span>
+      <div className="rev-stars" aria-label="5 out of 5 stars">
+        ★★★★★
+      </div>
       <p className="rev-q font-cinzel">“{review.quote}”</p>
       <div className="rev-meta">
-        <span className="rev-avatar"><Icon name="paw" className="w-4 h-4" /></span>
-        <div><b>{review.name}</b><small>{review.source}</small></div>
+        <span className="rev-avatar">
+          <img src={review.image} alt={review.name} />
+        </span>{" "}
+        <div>
+          <b>{review.name}</b>
+          <small>{review.source}</small>
+        </div>
       </div>
     </article>
   );

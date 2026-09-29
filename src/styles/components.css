@@ -123,3 +123,15 @@ select.field option { background: #0e0b24; }
     gap: 0.4rem;
   }
 }
+
+.rev-avatar {
+  overflow: hidden;
+  border-radius: 50%;
+}
+
+.rev-avatar img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+}
