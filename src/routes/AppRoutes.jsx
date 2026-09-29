@@ -6,6 +6,7 @@ import AboutBook from "@/pages/AboutBook";
 import AboutAuthor from "@/pages/AboutAuthor";
 import Contact from "@/pages/Contact";
 import Faqs from "@/pages/Faqs";
+import BookTrailer from "@/pages/BookTrailer";
 import NotFound from "@/pages/NotFound";
 
 const withTransition = (page) => <PageTransition>{page}</PageTransition>;
@@ -20,6 +21,7 @@ export default function AppRoutes() {
         <Route path="/about-the-author" element={withTransition(<AboutAuthor />)} />
         <Route path="/contact" element={withTransition(<Contact />)} />
         <Route path="/faqs" element={withTransition(<Faqs />)} />
+        <Route path="/book-trailer" element={withTransition(<BookTrailer />)} />
         <Route path="*" element={withTransition(<NotFound />)} />
       </Routes>
     </AnimatePresence>
