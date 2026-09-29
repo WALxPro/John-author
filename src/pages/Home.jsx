@@ -1,6 +1,7 @@
 import { useRef } from "react";
 import Hero from "@/sections/home/Hero";
 import BookTeaser from "@/sections/home/BookTeaser";
+import TrailerTeaser from "@/sections/home/TrailerTeaser";
 import EnterThePack from "@/sections/home/EnterThePack";
 import AuthorTeaser from "@/sections/home/AuthorTeaser";
 import ReviewsCarousel from "@/sections/home/ReviewsCarousel";
@@ -19,8 +20,10 @@ export default function Home() {
       <Hero />
       <RetailerMarquee />
       <BookTeaser />
+      
       <EnterThePack />
       <AuthorTeaser />
+      <TrailerTeaser />
       <ReviewsCarousel />
       <JoinThePack />
     </div>

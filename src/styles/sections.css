@@ -41,6 +41,15 @@
 .teaser-glow { position: absolute; inset: -25%; filter: blur(30px); background: radial-gradient(closest-side, rgba(34,211,238,.35), rgba(124,58,237,.3) 50%, transparent); }
 .teaser-diamond { position: absolute; inset: -12%; border: 1px solid rgba(34, 211, 238, 0.35); border-radius: 28px; transform: rotate(45deg); box-shadow: 0 0 30px -6px rgba(34,211,238,.5), inset 0 0 30px -10px rgba(244,63,94,.5); }
 
+/* ════════ HOME — TRAILER ════════ */
+.home-trailer { background: radial-gradient(650px 420px at 12% 52%, rgba(34,211,238,.11), transparent 68%), radial-gradient(700px 480px at 88% 42%, rgba(244,63,94,.13), transparent 68%); }
+.home-trailer-glow { position: absolute; left: 50%; top: 50%; width: 68%; aspect-ratio: 2; transform: translate(-50%, -50%); filter: blur(80px); opacity: .45; background: radial-gradient(closest-side, rgba(124,58,237,.42), transparent); }
+.home-trailer-frame { position: relative; overflow: hidden; padding: .55rem; border-radius: 26px; box-shadow: 0 28px 70px -34px rgba(0,0,0,.95), 0 0 60px -25px rgba(34,211,238,.52); }
+.home-trailer-frame::before { content: ""; position: absolute; z-index: 2; inset: 0; pointer-events: none; border-radius: inherit; background: linear-gradient(135deg, rgba(34,211,238,.14), transparent 18%, transparent 76%, rgba(244,63,94,.14)); }
+.home-trailer-video { display: block; width: 100%; aspect-ratio: 16 / 9; object-fit: contain; border-radius: 20px; background: #03040a; }
+.home-trailer-topline { position: absolute; z-index: 3; top: 1.45rem; left: 1.55rem; right: 1.55rem; display: flex; justify-content: space-between; color: rgba(255,255,255,.86); font-size: .58rem; font-weight: 700; letter-spacing: .23em; text-transform: uppercase; text-shadow: 0 2px 8px #000; pointer-events: none; }
+.home-trailer-frame .claw-marks { z-index: 4; opacity: .6; }
+
 /* ════════ HOME — ENTER THE PACK ════════ */
 .pack-section { position: relative; padding: 5rem 0; }
 .pack-bg { opacity: 0.55; }
@@ -209,7 +218,7 @@
 .trailer-title { margin: 0; font-size: clamp(3rem, 7.4vw, 6.5rem); line-height: .95; filter: drop-shadow(0 0 32px rgba(244,63,94,.35)); }
 .trailer-frame { position: relative; overflow: hidden; padding: .7rem; border-radius: 30px; box-shadow: 0 32px 90px -38px rgba(0,0,0,.95), 0 0 95px -38px rgba(244,63,94,.62); }
 .trailer-frame::after { content: ""; position: absolute; inset: 0; pointer-events: none; border-radius: inherit; background: linear-gradient(130deg, rgba(255,255,255,.12), transparent 18%, transparent 78%, rgba(34,211,238,.1)); }
-.trailer-video { position: relative; z-index: 1; display: block; width: 100%; aspect-ratio: 16 / 9; object-fit: cover; border-radius: 22px; background: #03040a; }
+.trailer-video { position: relative; z-index: 1; display: block; width: 100%; aspect-ratio: 16 / 9; object-fit: contain; border-radius: 22px; background: #03040a; }
 .trailer-labels { position: absolute; z-index: 2; top: 1.7rem; left: 1.8rem; right: 1.8rem; display: flex; justify-content: space-between; color: rgba(255,255,255,.8); font-size: .62rem; font-weight: 700; letter-spacing: .25em; text-transform: uppercase; pointer-events: none; text-shadow: 0 2px 8px #000; }
 .trailer-frame .claw-marks { z-index: 3; opacity: .55; }
 .trailer-after { padding-top: 2.4rem; }
@@ -267,6 +276,9 @@
   .faq-q { font-size: 0.92rem; }
   .faq-a p { font-size: 0.92rem; line-height: 1.65; }
   .contact-mail { font-size: 0.96rem; }
+  .home-trailer-frame { padding: .38rem; border-radius: 20px; }
+  .home-trailer-video { border-radius: 15px; }
+  .home-trailer-topline { top: 1rem; left: 1rem; right: 1rem; font-size: .48rem; letter-spacing: .15em; }
   .trailer-page { padding-top: 118px; }
   .trailer-hero { padding-bottom: 2.2rem; }
   .trailer-title { font-size: clamp(2.45rem, 12vw, 3.3rem); }
